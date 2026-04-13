@@ -1,0 +1,183 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.contenedor {
+    background-color: rgb(58, 52, 138);
+    width: 650px;
+    height: 750px;
+    border:  10px ridge rgb(0, 0, 0);
+    position: relative;
+    
+}
+.contenedor-perfil {
+    background-color: rgb(58, 52, 138);
+    width: 630px;
+    height: 150px;
+    border:  10px ridge rgb(52, 41, 104);
+    position: relative;
+}
+.contenedor-dentro-perfil {
+    background-color: rgb(58, 52, 138);
+    width: 210px;
+    height: 50  px;
+    border:  10px ridge rgb(52, 41, 104);
+    position: relative;
+    top: -10px;
+    
+
+    
+}
+.contenedor1 {
+    background-color: rgb(58, 52, 138);
+    width: 190px;
+    height: 190px;
+    border:  10px ridge rgb(52, 41, 104);
+    position: fixed;
+    gap: 100px;
+    
+}
+.contenedor2 {
+    background-color: rgb(58, 52, 138);
+    width: 210px;
+    height: 180px;
+    border:  10px ridge rgb(52, 41, 104);
+    position: relative;
+    left: 420px;
+
+    
+}
+.contenedor3 {
+    background-color: rgb(58, 52, 138);
+    width: 210px;
+    height: 180px;
+    border:  10px ridge rgb(52, 41, 104);
+    position: relative;
+    top: 100px;
+    
+    
+}
+.contenedor4 {
+    background-color: rgb(58, 52, 138);
+    width: 210px;
+    height: 180px;
+    border:  10px ridge rgb(52, 41, 104);
+    position: relative;
+    left: 420px;
+    top: -100px;
+    
+
+    
+}
+.contenedor-logo {
+    background-color: rgb(58, 52, 138);
+    width: 125px;
+    height: 125px;
+    border:  10px ridge rgb(52, 41, 104);
+    position: relative;
+    left: 480px;
+    top: -135px;
+    
+
+    
+}
+
+
+.inferior {
+    width: 100%;
+    height: 320px;
+    text-align: center;
+    padding-top: 500px; 
+    top: -  ¿100px;
+}
+
+
+
+.logo {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+
+    top: 10px;
+}
+
+.mensaje {
+    width: 400px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+.redes {
+    width: 400px;
+    height: 60px;
+    background-color: rgb(58, 52, 138);
+    border:  10px ridge rgb(52, 41, 104);
+    color: azure;
+    margin: auto;
+    position: relative;
+    top: 52px;
+    right: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; /* Espacio entre iconos */
+}
+
+/* Estilo para el texto y los iconos */
+p, span {
+    font-family: verdana;
+    font-size: 18px;
+    margin: 0;
+    align-items: center;
+}
+
+.mensaje-p {
+    padding-top: 15px;
+    color: #fafafa;
+    font-size: 15px;
+}
+
+/* Estilo de los iconos de redes sociales */
+i {
+    font-size: 24px;
+    color: #333;
+}
+
+
+.nombre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fafafa;
+    font-size: 32px;
+}
+
+.profesion {
+    color: #c0c0c0;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.descripcion {
+    margin-top: 20px;
+    color: #004a99;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 0 30px;
+    line-height: 1.4;
+    align-items: center ;
+}
+
